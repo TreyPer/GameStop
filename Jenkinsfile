@@ -20,5 +20,10 @@ pipeline {
         }
       }
     }
+    stage('Push to production') {
+      steps {
+        echo 'done'
+      }
+    }
   }
 }
